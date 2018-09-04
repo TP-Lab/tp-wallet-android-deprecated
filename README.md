@@ -15,7 +15,7 @@ allprojects {
 2.在app下的build.gradle中添加:
 ```
 dependencies {
-    implementation 'com.github.TP-Lab:tp-wallet-android:1.0.0'
+    implementation 'com.github.TP-Lab:tp-wallet-android:1.0.1'
 }
 ```
 
