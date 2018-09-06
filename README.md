@@ -38,7 +38,7 @@ TPManager.getInstance().transfer(MainActivity.this, "Json String", new TPListene
 
     @Override
     public void onCancel(String data) {
-	  Toast.makeText(MainActivity.this, data, Toast.LENGTH_SHORT).show();
+      Toast.makeText(MainActivity.this, data, Toast.LENGTH_SHORT).show();
     }
 });
 
