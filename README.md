@@ -21,10 +21,13 @@ dependencies {
 
 
 ## 使用
+
+#### 转账
 ```
 TPManager.getInstance().transfer(MainActivity.this, "Json String", new TPListener() {
     @Override
     public void onSuccess(String data) {
+    //data即为transactionId
 	Toast.makeText(MainActivity.this, data, Toast.LENGTH_SHORT).show();
     }
 
